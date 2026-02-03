@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "orthoplex-button",
+  "title": "Orthoplex Button",
+  "description": "An orange button component branded for Orthoplex.",
+  "files": [
+    {
+      "path": "registry/orthoplex-button/orthoplex-button.tsx",
+      "content": "import * as React from 'react';\r\n\r\nexport interface OrthoplexButtonProps\r\n  extends React.ButtonHTMLAttributes<HTMLButtonElement> {}\r\n\r\nconst OrthoplexButton = React.forwardRef<\r\n  HTMLButtonElement,\r\n  OrthoplexButtonProps\r\n>(({ className, ...props }, ref) => (\r\n  <button\r\n    className={`px-4 py-2 rounded-md font-medium text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 transition-colors ${\r\n      className || ''\r\n    }`}\r\n    ref={ref}\r\n    {...props}\r\n  />\r\n));\r\n\r\nOrthoplexButton.displayName = 'OrthoplexButton';\r\n\r\nexport { OrthoplexButton };\r\n",
+      "type": "registry:component"
+    }
+  ],
+  "type": "registry:ui"
+}

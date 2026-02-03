@@ -10,10 +10,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "shadcn": "latest",
-    "typescript": "^5.0.0",
     "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0"
+    "@types/react-dom": "^18.2.0",
+    "shadcn": "^3.8.2",
+    "typescript": "^5.0.0"
   },
   "author": "Orthoplex Team",
   "license": "MIT"
