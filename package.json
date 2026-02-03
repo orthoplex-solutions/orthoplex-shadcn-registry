@@ -3,7 +3,17 @@
   "version": "1.0.0",
   "description": "Orthoplex custom shadcn/ui components",
   "scripts": {
-    "build": "echo 'Build configured later'"
+    "registry:build": "shadcn build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "shadcn": "latest",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
   },
   "author": "Orthoplex Team",
   "license": "MIT"

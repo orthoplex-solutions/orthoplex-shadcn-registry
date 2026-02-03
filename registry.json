@@ -1,6 +1,19 @@
 {
-  "$schema": "https://ui.shadcn.com/schema.json",
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "orthoplex-registry",
-  "description": "Orthoplex custom shadcn/ui components",
-  "components": []
+  "homepage": "https://github.com/orthoplex-solutions/orthoplex-shadcn-registry.git",
+  "items": [
+    {
+      "name": "orthoplex-button",
+      "type": "registry:ui",
+      "title": "Orthoplex Button",
+      "description": "An orange button component branded for Orthoplex.",
+      "files": [
+        {
+          "path": "registry/orthoplex-button/orthoplex-button.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
 }
