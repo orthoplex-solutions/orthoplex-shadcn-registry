@@ -1,0 +1,10 @@
+{
+  "name": "@orthoplex/shadcn-registry",
+  "version": "1.0.0",
+  "description": "Orthoplex custom shadcn/ui components",
+  "scripts": {
+    "build": "echo 'Build configured later'"
+  },
+  "author": "Orthoplex Team",
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "name": "orthoplex-registry",
+  "description": "Orthoplex custom shadcn/ui components",
+  "components": []
+}
