@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "orthoplex-registry",
-  "homepage": "https://github.com/orthoplex-solutions/orthoplex-shadcn-registry.git",
+  "homepage": "https://github.com/orthoplex-solutions/orthoplex-shadcn-registry",
   "items": [
     {
       "name": "orthoplex-button",
@@ -11,6 +11,18 @@
       "files": [
         {
           "path": "registry/orthoplex-button/orthoplex-button.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "masked-input",
+      "type": "registry:ui",
+      "title": "Masked Input",
+      "description": "An input component with automatic formatting mask support. Format phone numbers, dates, postal codes, and more.",
+      "files": [
+        {
+          "path": "registry/masked-input/masked-input.tsx",
           "type": "registry:component"
         }
       ]

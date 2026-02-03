@@ -1,4 +1,0 @@
-{
-  "buildCommand": "npm run registry:build",
-  "outputDirectory": "public"
-}
